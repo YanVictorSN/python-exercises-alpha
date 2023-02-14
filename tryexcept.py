@@ -7,7 +7,7 @@ while True:
     except ValueError:
         print('Digite um número válido.')
     except Exception as err:
-        print(f"Unexpected {err=}")
+        print(f"Erro genérico: {err=}")
     else:
         print(result)
         break
